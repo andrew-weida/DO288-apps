@@ -1,0 +1,9 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: db-config
+data: 
+  DATABASE_USER: hello
+  DATABASE_PASSWORD: world
+  DATABASE_SVC_HOSTNAME: tododb
+  DATABASE_NAME: todo
